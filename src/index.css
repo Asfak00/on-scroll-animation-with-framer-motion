@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 300px;
+  padding: 1rem 3rem;
+  background-color: #c7e0f9;
+  border: 1px solid #0074e8;
+  outline: none;
+  color: #0074e8;
+  cursor: pointer;
+}
